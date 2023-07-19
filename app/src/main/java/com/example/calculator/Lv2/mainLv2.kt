@@ -13,7 +13,7 @@ fun main() {
     var num1 = BigDecimal(scanner.next())
 
     println("연산자를 입력하세요. (+, -, *, /, %)")
-    var operator = scanner.next()[0]  // Sanner.next()로 첫번째 글자를 추출
+    var operator = scanner.next()[0]  // Scanner.next()로 첫번째 글자를 추출
 
     println("숫자를 입력하세요.")
     var num2 = BigDecimal(scanner.next())
