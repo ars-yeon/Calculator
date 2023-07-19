@@ -13,7 +13,7 @@ fun main() {
     var num1 = BigDecimal(scanner.next())
 
     println("연산자를 입력하세요. (+, -, *, /)")
-    var operator = scanner.next()[0]  // Scanner는 단일문자를 입력받는 메서드는 제공X, Sanner.next()로 첫번째 글자를 추출하는 방법으로 사용
+    var operator = scanner.next()[0]  // Sanner.next()로 첫번째 글자를 추출
 
     println("숫자를 입력하세요.")
     var num2 = BigDecimal(scanner.next())
