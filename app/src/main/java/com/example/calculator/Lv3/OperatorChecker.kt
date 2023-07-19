@@ -3,7 +3,7 @@ import java.util.Scanner
 
 // operator 입력값이 '+', '-', '*', '/' 중에 있는지 없는지 체크
 class OperatorChecker {
-    private val validOperator = setOf('+', '-', '*', '/')
+    private val validOperator = setOf('+', '-', '*', '/')  // 순서 상관 없이 중복만 아니면 되서 set 사용
 
     fun isOperator(scanner: Scanner): Char {
         val operator: Char
