@@ -1,6 +1,6 @@
 package com.example.calculator.Lv1
 import java.math.BigDecimal  // 부동 소수점 정확성 문제 해결을 위해 사용
-import java.util.Scanner  //
+import java.util.Scanner
 
 // Lv1. 더하기, 빼기, 나누기, 곱하기 연산을 수행할 수 있는 Calculator 클래스를 만들고,
 // 클래스를 이용하여 연산을 진행하고 출력하기
@@ -19,8 +19,7 @@ fun main() {
     var num2 = BigDecimal(scanner.next())
 
     val result = calc.calculate(num1, operator, num2)
-
-    val finalResult = if (result.scale() > 0) result else result.toInt()
+    val finalResult = if (result.scale() > 0) result else result.toInt()  // 변수의 소수점 자릿수 확인, 소수점 있으면 그대로 유지하고 없으면 정수로 변환
 
     println("$num1 $operator $num2 = $finalResult")
 }
