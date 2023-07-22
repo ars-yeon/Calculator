@@ -1,4 +1,4 @@
-# NB Camp - project - Calculator
+# NB Camp - project - Calculator (과제 제출O)
 내일배움캠프 - Kotlin 문법 기초 과제 - 계산기
 
 
